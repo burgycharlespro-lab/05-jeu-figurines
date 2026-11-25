@@ -1,0 +1,16 @@
+[project]
+name = "jeu-figurines"
+version = "0.1.0"
+description = "Jeu de figurines — des agents qui jouent, et un banc d'essai"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.12"
+# Les dépendances s'ajoutent au fil du cours avec : uv add nom-du-paquet
+dependencies = []
+
+[dependency-groups]
+dev = ["pytest", "ruff"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
