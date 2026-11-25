@@ -155,7 +155,7 @@ Le dépôt est public. Les règles, les noms et les visuels sont les tiens. On s
 
 **Réussi quand** : une partie se termine sans intervention, et tu connais le taux de coups interdits.
 
-**Piège** : sur ce PC, une partie peut durer plusieurs minutes. Réduire la grille, limiter le nombre de tours, et lancer les séries longues en fin de séance. Le cache ne sert pas ici comme ailleurs : deux états différents donnent deux demandes différentes.
+**Piège** : sans carte graphique dédiée, une partie peut durer plusieurs minutes. Réduire la grille, limiter le nombre de tours, et lancer les séries longues en fin de séance. Le cache ne sert pas ici comme ailleurs : deux états différents donnent deux demandes différentes.
 
 ---
 
@@ -204,7 +204,7 @@ Le dépôt est public. Les règles, les noms et les visuels sont les tiens. On s
 **À faire**
 
 1. Écrire `banc/banc.py` : il joue N parties par joueur, sur les mêmes graines, et écrit un fichier de résultats daté.
-2. Choisir N selon la durée mesurée au module 4. Ordre de grandeur réaliste sur ce PC : 200 parties pour les joueurs sans modèle, 20 à 30 pour les joueurs à modèle.
+2. Choisir N selon la durée mesurée au module 4. Ordre de grandeur : 200 parties pour les joueurs sans modèle ; pour les joueurs à modèle, ce que ta machine joue en une à deux heures (20 à 30 parties sans carte graphique dédiée, davantage avec).
 3. Pouvoir reprendre un banc interrompu sans rejouer les parties déjà faites.
 4. Sortir le tableau :
 
